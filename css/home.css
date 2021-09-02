@@ -1,0 +1,251 @@
+
+body{
+	margin:0;
+	background-image: url("../pic/1.png");
+}
+nav{
+	background-color:black;
+}
+nav li {
+	float: left;
+	border-right:1px solid #bbb;
+	
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+nav li a {
+	display: block;
+	padding: 8px;
+	text-align:center;
+	
+}
+
+
+
+.header{
+	padding:3px;
+	background: black;
+	color: red;
+	font-size: 15px;
+	font-family:Brush Script MT;
+}
+
+.column {
+	float: left;
+	width: 31.48%;
+	padding: 10px;
+	text-align:center;
+	
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container button{
+	
+	background-color: black;  
+}
+
+.container button:hover{
+	background-color: red;
+    color: black;
+}
+
+#car button{
+	width:250px;
+	background-image:url("../pic/car2.jpg");
+	border: none;
+	color: white;
+	padding: 32px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family:Lucida Console;
+	border-radius: 12px;
+	margin-left:41%;
+	padding:15%;
+}
+
+
+#car button:hover{
+	background-image:url("../pic/car.png");
+	color: black;
+}
+#ambulance button{
+	
+	background-image:url("../pic/ambulance1.png");
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family:Lucida Console;
+	border-radius: 12px;
+	width:250px;
+	margin-left:41%;
+	padding: 32px 16px;
+	padding:15%;	
+}
+
+#ambulance button:hover{
+	background-image:url("../pic/ambulance.png");
+	color: black;
+}
+
+
+
+#driver{
+	padding-top:5%;
+}
+
+#car {
+	padding-top:1%;
+}
+#car h1{
+	text-align:center;
+	background-color:black;
+	margin-left:49%;
+	margin-right:30%;
+	color:red;
+	font-family:Lucida Console;
+    border-radius:12px;	
+}  
+#car p{
+	text-align:center;
+	background-color:black;
+	margin-left:15%;
+	color:red;
+	font-family:Lucida Console;	
+	font-size:30px;
+	border-radius:12px;
+	padding:2%;
+}
+
+
+#ambulance{
+	
+	padding-top:1%;
+	padding-bottom:5%;
+	
+}
+
+#ambulance h1{
+	text-align:center;
+	background-color:black;
+	margin-left:49%;
+	margin-right:30%;
+	color:red;
+	font-family:Lucida Console;
+    border-radius:12px;	
+	
+}  
+#ambulance p{
+	text-align:center;
+	background-color:black;
+	margin-left:15%;
+	color:red;
+	font-family:Lucida Console;	
+	font-size:30px;
+	border-radius:12px;
+	padding:2%;
+}  
+
+/*car*/
+
+.column2 {
+	float: left;
+	width: 50%;
+}
+.left2 {
+	width: 30%;
+}
+
+.right2 {
+	width: 50%;
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*ambulance*/
+
+.column3 {
+	float: left;
+	width: 50%;
+}
+.left3 {
+	width: 30%;
+}
+
+.right3 {
+	width: 50%;
+}
+.row3:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+footer{
+	margin:0;
+	background-color:black;
+	padding-bottom:5%;
+}
+#ftext p{
+	margin-left:8%;
+	padding:4%;
+	margin:0;
+	font-size: 20px;
+	color:red;
+}
+
+#finish p{
+	text-align:center;
+	font-size:40px;
+	color:red;
+}
+
+.column1 {
+	float: left;
+	padding: 10px;
+	height: 200px; 
+}
+
+.left, .right {
+	width: 18%;
+}
+
+.middle {
+	width: 50%;
+	margin-left:8%;
+	
+}
+
+.row1:after {
+	content: "";
+display: table;
+clear: both;
+}
+
+.column1 h4{
+color:red;
+
+}
+.column1 li{
+color:white;
+
+}
+.far {
+color:red;
+}

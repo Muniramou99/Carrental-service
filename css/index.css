@@ -1,0 +1,139 @@
+
+body{
+	margin:0;
+	background-image: url("../pic/1.png");
+}
+nav{
+	background-color:black;
+}
+nav li {
+	float: left;
+	border-right:1px solid #bbb;
+	
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+nav li a {
+	display: block;
+	padding: 8px;
+	text-align:center;
+	
+}
+
+
+/*nav li:last-child {
+	border-right: none;
+	padding-top:5px;
+	padding-right:5px;
+}*/
+
+
+
+
+.header{
+	padding:3px;
+	background: black;
+	color: red;
+	font-size: 15px;
+	font-family:Brush Script MT;
+}
+
+.column {
+	float: left;
+	width: 31.48%;
+	padding: 10px;
+	text-align:center;
+	
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container button{
+	width:50%;
+	background-color: black;  
+	border: none;
+	color: red;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family:Lucida Console;
+	border-radius: 12px;
+	margin-left:25%;
+	margin-bottom:5%;
+}
+#driver{
+	margin-top:5%;
+}
+#user{
+	margin-top:2%;
+}
+
+
+.container button:hover{
+	background-color: red;
+    color: black;
+}
+
+footer{
+	margin:0;
+	background-color:black;
+	padding-bottom:5%;
+}
+#ftext p{
+	margin-left:8%;
+	padding:4%;
+	margin:0;
+	font-size: 20px;
+	color:red;
+}
+
+#finish p{
+	text-align:center;
+	font-size:40px;
+	color:red;
+}
+
+.column1 {
+	float: left;
+	padding: 10px;
+	height: 200px; 
+}
+
+.left, .right {
+	width: 18%;
+}
+
+.middle {
+	width: 50%;
+	margin-left:8%;
+	
+}
+
+.row1:after {
+	content: "";
+display: table;
+clear: both;
+}
+
+.column1 h4{
+color:red;
+
+}
+.column1 li{
+color:white;
+
+}
+.far {
+color:red;
+}

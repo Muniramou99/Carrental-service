@@ -1,0 +1,36 @@
+.update{
+    text-align: center;
+    color:black;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+    letter-spacing:2px ;
+	margin-top: 10%;
+}
+body{
+	margin:0;
+	background-image: url("../pic/1.png");
+	
+	
+}
+button{
+	background: transparent;
+	color: goldenrod;
+	letter-spacing: 2px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+	padding: 14px 15px;
+	margin: 8px 0;
+	border-color: goldenrod;
+	cursor: pointer;
+	width: 10%;
+	align-content: center;
+   
+margin-left:45%;
+margin-right:25%;
+margin-bottom:15px;
+
+}
+button:hover {
+	background-color: goldenrod;
+	color:black;
+}
+

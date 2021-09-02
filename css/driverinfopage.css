@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	background-image: url("../pic/1.png");
+	
+	
+}
+nav{
+	background-color:black;
+}
+nav li {
+	float: left;
+	border-right:1px solid #bbb;
+	
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+nav li a {
+	display: block;
+	padding: 8px;
+	text-align:center;
+	
+}
+
+
+
+
+
+
+.header{
+padding:3px;
+background: black;
+color: red;
+font-size: 15px;
+font-family:Brush Script MT;
+}
+
+.column {
+float: left;
+width: 31.48%;
+padding: 10px;
+text-align:center;
+
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.manageMember {
+	padding-top: 25px;
+	text-align: center;
+width: 50%;
+margin: auto;
+color: goldenrod;
+font-size: 20px;
+}
+
+
+button{
+	
+	background: transparent;
+	color: goldenrod;
+	letter-spacing: 2px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border-color: goldenrod;
+	cursor: pointer;
+	width: 20%;
+	align-content: center;
+    margin-left:5%;
+    margin-bottom:10px;
+
+}
+button:hover {
+	background-color: red;
+}
+hr {
+	border: 1px solid goldenrod;
+	margin: 0;
+  }
+.available{
+color:aquamarine;
+}
+.reserved{
+	color:blue;
+}
+
+
+footer{
+margin:0;
+background-color:black;
+padding-bottom:5%;
+}
+#ftext p{
+margin-left:8%;
+padding:4%;
+margin:0;
+font-size: 20px;
+color:red;
+}
+
+#finish p{
+text-align:center;
+font-size:40px;
+color:red;
+}
+
+.column1 {
+float: left;
+padding: 10px;
+height: 200px; 
+}
+
+.left, .right {
+width: 18%;
+}
+
+.middle {
+width: 50%;
+margin-left:8%;
+
+}
+
+.row1:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column1 h4{
+color:red;
+
+}
+.column1 li{
+color:white;
+}	
