@@ -51,14 +51,13 @@
 
 [![website-screenshot]]
 
-The Memories Chronicel project is a ready website project to launch for any event planning company.
+The BD Car Rental Service is a ready website project to launch for any Vehicle hiring company.
 Objectives:
 
- * Enable Stability by monitoring all events that occurs throughout the IT infrastructure to allow for normal service operations and detect and escalate exceptions.
- * To make an event planner hiring process easier for all.
- * To provide basis of service assurance, reporting and service improvement.
- * To help event planner to speed up process of event planning and grow the business through the use of modern technology.
- * To help clients making there events stress free.
+ * The users are able to enter the company’s website for searching and reserving their favorite cars easily through
+   the internet and it can be access anywhere anytime in the country. 
+ * Ambulance service respond rapidly to request for help in a medical emergency 
+ * And Rural places people can also book this in their area’s  available car and ambulance at any time
 
 
 ### Built With
@@ -86,7 +85,7 @@ This is the list of software u need.
   ```sh
   use any server xampp / wampp
   ```
-  or if already have, log in to the MySQL Server using a user account that has the CREATE DATABASE privilege:
+  or if already have, log in to the MySQL Server using a user account that has the CREATE DATABASE carrentalservice:
   ```sh
    mysql -u root -p
    ```
@@ -104,15 +103,15 @@ This is the list of software u need.
    ```
 2. Create a database in phpmyadmin
    ```sh
-   CREATE DATABASE memories_chronicel;
+   CREATE DATABASE carrentalservice;
    ```
-3. Import SQL file `memories_chronicel.sql`
+3. Import SQL file `carrentalservice.sql`
    ```sh
-   In phpmyadmin Import > choose > 'memories_chronicel.sql' > Go
+   In phpmyadmin Import > choose > 'carrentalservice.sql' > Go
    ```
 4. Run the project useing `localhost`
    ```sh
-   http://localhost/memories%20Chronicel/
+   http://localhost/Finalproject/html/
    ```
 
 
