@@ -52,6 +52,7 @@
 [![website-screenshot]]
 
 The BD Car Rental Service is a ready website project to launch for any Vehicle hiring company.
+
 Objectives:
 
  * The users are able to enter the company’s website for searching and reserving their favorite cars easily through
