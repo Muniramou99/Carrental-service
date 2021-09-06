@@ -15,9 +15,9 @@
     <img src="./logo1.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">BD CARRENTAL SERVICE</h3>
+  <h3 align="center"color="#FFD700">BD CARRENTAL SERVICE</h3>
 
-  <p align="center">
+  <p align="center"color="#FFD700">
     Car rental web application projects!
   </p>
 </p>
