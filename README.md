@@ -97,7 +97,7 @@ This is the list of software u need.
 
 1. Clone the repo in
    ```sh
-   your directory/xampp/htdocs/
+   your directory/xampp/htdocs/Finalproject/
    ```
    ```sh
    git clone https://github.com/Muniramou99/Carrental-service.git
